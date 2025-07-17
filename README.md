@@ -22,11 +22,11 @@ Your application's core must be an agent built with **LangGraph**. It should be 
     *   You will need to implement a robust RAG pipeline:
         *   **Load and Parse:** Effectively load and parse the complex, multi-section PDF document.
         *   **Chunking:** Implement an intelligent chunking strategy suitable for a large, structured document.
-        *   **Vector Store:** Create embeddings and store them in a local vector store (e.g., ChromaDB, FAISS).
+        *   **Vector Store:** Create embeddings and store them in a local vector store (e.g., Supabase, ChromaDB).
         *   **Retriever:** Build a retriever that the agent can invoke to find relevant information within the document.
 
 3.  **Tool 2: Real-time Stock Price:**
-    *   Implement a tool that can fetch the current stock price for a given ticker symbol (e.g., "NVDA").
+    *   Implement a tool that can fetch the current/historical stock price for a given ticker symbol (e.g., "NVDA").
     *   Use any free, public API for this.
 
 4.  **Orchestration and Synthesis:**
