@@ -6,7 +6,7 @@ The goal of this assignment is to build a proof-of-concept AI agent that can ass
 An analyst is conducting research on **NVIDIA (Ticker: NVDA)**. They need an AI assistant that can answer questions about the company's performance, strategy, and risks by reading its latest annual report, as well as provide the most up-to-date stock price.
 
 ## Provided Materials
-*   A PDF document: `NVIDIA-2024-Annual-Report.pdf` (This includes the Annual Review, Proxy Statement, and 10-K).
+*    Click [here](https://s201.q4cdn.com/141608511/files/doc_financials/2024/ar/NVIDIA-2024-Annual-Report.pdf) to download the **NVIDIA 2024 Annual Report** directly from NVIDIA's official website.
 *   *You will need to acquire your own free API keys for the LLM provider (e.g., OpenAI, Anthropic, Google) and a financial data provider.*
 
 ## Technical Requirements
@@ -18,7 +18,7 @@ Your application's core must be an agent built with **LangGraph**. It should be 
     *   The graph should be able to handle sequences of tool calls and synthesize the information into a final, coherent response.
 
 2.  **Tool 1: Annual Report Q&A (RAG System):**
-    *   This tool must be able to answer questions based on the content of the provided `NVIDIA-2024-Annual-Report.pdf`.
+    *   This tool must be able to answer questions based on the content of the `NVIDIA 2024 Annual Report`.
     *   You will need to implement a robust RAG pipeline:
         *   **Load and Parse:** Effectively load and parse the complex, multi-section PDF document.
         *   **Chunking:** Implement an intelligent chunking strategy suitable for a large, structured document.
